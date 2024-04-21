@@ -1,0 +1,23 @@
+
+body{
+  font-family:'Inter',sans-serif;
+}
+
+header{
+  z-index:2 !important;
+}
+
+.subtitle{
+  @apply text-orange  tracking-wide font-medium  ;
+}
+
+.title{
+  @apply  text-2xl md:text-3xl font-bold my-2 ;
+}
+
+.section-container1{
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4   h-screen;
+}
+.section-container{
+  @apply max-w-screen-2xl container mx-auto xl:px-24 px-4  ;
+}
