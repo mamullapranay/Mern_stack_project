@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 /*import logo from "/logo.png";*/
 import { LuPhoneCall } from "react-icons/lu";
 
+
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
   useEffect(() => {
